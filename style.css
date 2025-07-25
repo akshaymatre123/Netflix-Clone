@@ -893,6 +893,18 @@ p {
 
 /* ===== Responsive for Mobile (≤480px) ===== */
 @media screen and (max-width: 480px) {
+     .navbar img {
+        width: 100px;
+    }
+
+    .btn1,
+    .btn2 {
+        width: 80px;
+        height: 30px;
+        font-size: 11px;
+      
+    }
+    
     .text h1 {
         font-size: 26px;
     }
@@ -903,7 +915,7 @@ p {
     }
 
     h3 {
-        margin-left: 2%;
+        margin-left: 6%;
     }
 
     .btn1 {
@@ -918,6 +930,11 @@ p {
     .form1 input,
     .form1 button {
         width: 100%;
+    }
+     .form1 input,
+    .form1 button{
+        margin-left:3%;
+        width: 90%;
     }
 
     .child1 h3,
